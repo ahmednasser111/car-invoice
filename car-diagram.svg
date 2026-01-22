@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 350">
+  <!-- Car body outline -->
+  <rect x="30" y="40" width="140" height="270" rx="30" fill="none" stroke="#333" stroke-width="2"/>
+  <!-- Windshield -->
+  <path d="M45 80 Q100 60 155 80 L155 120 Q100 100 45 120 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Rear window -->
+  <path d="M45 260 Q100 280 155 260 L155 230 Q100 250 45 230 Z" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Left mirror -->
+  <ellipse cx="20" cy="100" rx="10" ry="15" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Right mirror -->
+  <ellipse cx="180" cy="100" rx="10" ry="15" fill="none" stroke="#333" stroke-width="1.5"/>
+  <!-- Front wheels -->
+  <rect x="15" y="70" width="20" height="40" rx="5" fill="#333"/>
+  <rect x="165" y="70" width="20" height="40" rx="5" fill="#333"/>
+  <!-- Rear wheels -->
+  <rect x="15" y="240" width="20" height="40" rx="5" fill="#333"/>
+  <rect x="165" y="240" width="20" height="40" rx="5" fill="#333"/>
+  <!-- Check points -->
+  <circle cx="50" cy="55" r="8" fill="#fff" stroke="#333" stroke-width="1"/>
+  <text x="50" y="58" text-anchor="middle" font-size="10">1</text>
+  <circle cx="150" cy="55" r="8" fill="#fff" stroke="#333" stroke-width="1"/>
+  <text x="150" y="58" text-anchor="middle" font-size="10">2</text>
+  <circle cx="50" cy="295" r="8" fill="#fff" stroke="#333" stroke-width="1"/>
+  <text x="50" y="298" text-anchor="middle" font-size="10">3</text>
+  <circle cx="150" cy="295" r="8" fill="#fff" stroke="#333" stroke-width="1"/>
+  <text x="150" y="298" text-anchor="middle" font-size="10">4</text>
+</svg>
