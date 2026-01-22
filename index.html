@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عقد تأجير سيارة - Car Rental Contract</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  
+  <div></div>
+  <div class="page">
+    
+    <header class="header">
+      <!-- Left side: English company info -->
+      <div class="header-left">
+        <div class="company-name-en">OMER CAR RENTAL</div>
+        <div class="company-location">Ajman Al Rasidiah</div>
+      </div>
+      
+      <!-- Center: Logo -->
+      <div class="header-center">
+        <div class="logo">
+          <span class="logo-icon">🚗</span>
+          <span class="logo-text">OMARC</span>
+        </div>
+        <div class="logo-subtitle">CARS RENTAL</div>
+      </div>
+      
+      <!-- Right side: Arabic company info -->
+      <div class="header-right">
+        <div class="company-name-ar">عمر لتأجير السيارات</div>
+        <div class="company-phone">Tel: +123-456-7890</div>
+      </div>
+    </header>
+    
+    <!-- =====================================================
+         CONTRACT TITLE BAR
+         No background, contract number left, title center vertically stacked
+         ===================================================== -->
+    <div class="contract-bar">
+      <div class="contract-number">
+        <span class="contract-a">A/ </span><span class="contract-num">02506</span>
+      </div>
+      <div class="contract-title">
+        <span class="title-ar">عقد تأجير سيارة</span>
+        <span class="title-en">CAR RENTAL CONTRACT</span>
+      </div>
+      <div class="contract-spacer"></div>
+    </div>
+    
+    <!-- =====================================================
+         MAIN CONTENT - Two Column Layout
+         ===================================================== -->
+    <main class="main-content">
+      
+      <!-- TOP SECTION: Existing Tables (Car, Renter, Sponsor) -->
+      <div class="top-section">
+        
+        <!-- LEFT COLUMN: Vehicle Details -->
+        <div class="column column-left">
+          
+          <!-- RENTED CAR DETAILS (SPLIT 1) -->
+          <section class="section">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th colspan="3">
+                    <div class="table-header-content">
+                      <span class="header-en">Rented Car Details</span>
+                      <span class="header-ar">بيانات المركبة المأجرة</span>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="label">Vehicle Type</td>
+                  <td class="value">نيسان صني</td>
+                  <td class="label-ar">نوع المركبة</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Model</td>
+                  <td class="value">2024</td>
+                  <td class="label-ar">الموديل</td>
+                </tr>
+                <tr>
+                  <td class="label">Plate Reg No.</td>
+                  <td class="value">AJMAN A 55990</td>
+                  <td class="label-ar">رقم اللوحة</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Color</td>
+                  <td class="value">أبيض</td>
+                  <td class="label-ar">اللون</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+          <!-- RENTAL TERMS (SPLIT 2) -->
+          <section class="section">
+            <table class="data-table">
+              <tbody>
+                <tr>
+                  <td class="label">Daily Rate</td>
+                  <td class="value">80</td>
+                  <td class="label-ar">السعر اليومي</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Daily KM Limite</td>
+                  <td class="value">250</td>
+                  <td class="label-ar">KM  الحد اليومي</td>
+                </tr>
+                <tr>
+                  <td class="label">Over KM Charge</td>
+                  <td class="value">0.30 Files</td>
+                  <td class="label-ar">فوق الحدKM</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Contract Type</td>
+                  <td class="value">شهري</td>
+                  <td class="label-ar">نوع العقد</td>
+                </tr>
+                <tr>
+                  <td class="label">Contract Day</td>
+                  <td class="value">4 أيام</td>
+                  <td class="label-ar">أيام العقد</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          
+          <!-- SECOND RENTER (SPONSOR) -->
+          <section class="section">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th colspan="3">
+                    <div class="table-header-content">
+                      <span class="header-en">Second Renter (Sponsor) Information</span>
+                      <span class="header-ar">بيانات المستأجر الثاني (الكفيل)</span>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="label">Name</td>
+                  <td class="value">عدنان مطر الكعبي</td>
+                  <td class="label-ar">الاسم</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Mobile</td>
+                  <td class="value">0501234567</td>
+                  <td class="label-ar">المتحرك</td>
+                </tr>
+                <tr>
+                  <td class="label">Address</td>
+                  <td class="value">الشارقة - القراين</td>
+                  <td class="label-ar">العنوان</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Notes</td>
+                  <td class="value"></td>
+                  <td class="label-ar">ملاحظات</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+
+        </div>
+        
+        <!-- RIGHT COLUMN: Renter & Sponsor -->
+        <div class="column column-right">
+          
+          <!-- PRIMARY RENTER (DRIVER) -->
+          <section class="section">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th colspan="3">
+                    <div class="table-header-content">
+                      <span class="header-en">Details of the Primary Renter (Driver)</span>
+                      <span class="header-ar">بيانات  المستأجر الأساسى (السائق)</span>
+                    </div>
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="label">Company</td>
+                  <td class="value">رسلان لتجارة السيارات</td>
+                  <td class="label-ar">الشركة</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Name</td>
+                  <td class="value">خليفة عبيد أحمد الشامسي</td>
+                  <td class="label-ar">الاسم</td>
+                </tr>
+                <tr>
+                  <td class="label">Mobile</td>
+                  <td class="value">0501234567</td>
+                  <td class="label-ar">المتحرك</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Work No.</td>
+                  <td class="value">065726665</td>
+                  <td class="label-ar">رقم العمل</td>
+                </tr>
+                <tr>
+                  <td class="label">Nationality</td>
+                  <td class="value">اإلمارات</td>
+                  <td class="label-ar">الجنسية</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Pass No.</td>
+                  <td class="value">A0000000</td>
+                  <td class="label-ar">رقم الجواز</td>
+                </tr>
+                <tr>
+                  <td class="label">EID No.</td>
+                  <td class="value">7841998012456</td>
+                  <td class="label-ar">رقم الهوية</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">DL No.</td>
+                  <td class="value">55303</td>
+                  <td class="label-ar">رخصة القيادة</td>
+                </tr>
+                <tr>
+                  <td class="label">Place of Issue</td>
+                  <td class="value">AJMAN</td>
+                  <td class="label-ar">مكان الإصدار</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Date of Issue</td>
+                  <td class="value">16/07/2018</td>
+                  <td class="label-ar">تاريخ الإصدار</td>
+                </tr>
+                <tr>
+                  <td class="label">Expiry Date</td>
+                  <td class="value">15/07/2028</td>
+                  <td class="label-ar">تاريخ الإنتهاء</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Date of Birth</td>
+                  <td class="value">16/04/1998</td>
+                  <td class="label-ar">تاريخ الميلاد</td>
+                </tr>
+                <tr>
+                  <td class="label">Home Address</td>
+                  <td class="value">عجمان الحميدية 2 خلف شرطة الحميدية</td>
+                  <td class="label-ar">عنوان المنزل</td>
+                </tr>
+                <tr class="alt">
+                  <td class="label">Work Address</td>
+                  <td class="value">عجمان الحميدية 2 خلف شرطة الحميدية</td>
+                  <td class="label-ar">عنوان العمل</td>
+                </tr>
+                <tr>
+                  <td class="label">P.O. Box</td>
+                  <td class="value">1215</td>
+                  <td class="label-ar">ص.ب</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          
+        </div>
+      </div>
+      
+      <!-- MIDDLE SECTION: Operations & Amounts -->
+      <div class="middle-section">
+        <table class="data-table operations-table">
+          <colgroup>
+            <!-- Charges (3 cols) -->
+            <col style="width: 10%">
+            <col style="width: 5%">
+            <col style="width: 10%">
+            <!-- Return (3 cols + 1 vertical) -->
+            <col style="width: 11%">
+            <col style="width: 11%">
+            <col style="width: 10%">
+            <col style="width: 3%">
+            <!-- Departure (3 cols + 1 vertical) -->
+            <col style="width: 11%">
+            <col style="width: 11%">
+            <col style="width: 10%">
+            <col style="width: 3%">
+          </colgroup>
+          <tbody>
+            <tr>
+              <!-- LEFT: CHARGES -->
+              <td class="label">Salik</td>
+              <td class="value">80</td>
+              <td class="label-ar">سالك</td>
+              
+              <!-- CENTER: RETURN (IN) -->
+              <td class="label">Return Date</td>
+              <td class="value">05/09/2025</td>
+              <td class="label-ar">تاريخ العودة</td>
+              <td rowspan="4" class="vertical-label-cell"><div class="vertical-label">In &nbsp;&nbsp;&nbsp;&nbsp; العودة</div></td>
+              
+              <!-- RIGHT: DEPARTURE (OUT) -->
+              <td class="label">Departure Date</td>
+              <td class="value">06/08/2025</td>
+              <td class="label-ar">تاريخ المغادرة</td>
+              <td rowspan="4" class="vertical-label-cell"><div class="vertical-label">Out &nbsp;&nbsp;&nbsp;&nbsp; الخروج</div></td>
+            </tr>
+            <tr class="alt">
+              <!-- CHARGES -->
+              <td class="label">Darb</td>
+              <td class="value">0</td>
+              <td class="label-ar">درب</td>
+              
+              <!-- RETURN -->
+              <td class="label">Time</td>
+              <td class="value">05:25 PM</td>
+              <td class="label-ar">التوقيت</td>
+              
+              <!-- DEPARTURE -->
+              <td class="label">Scheduled Return</td>
+              <td class="value">05/09/2025</td>
+              <td class="label-ar">العودة المقررة</td>
+            </tr>
+            <tr>
+              <!-- CHARGES -->
+              <td class="label">Fines</td>
+              <td class="value">170</td>
+              <td class="label-ar">مخالفات</td>
+              
+              <!-- RETURN -->
+              <td class="label">Odometer</td>
+              <td class="value">179258</td>
+              <td class="label-ar">رقم العداد</td>
+              
+              <!-- DEPARTURE -->
+              <td class="label">Time</td>
+              <td class="value">06:42 PM</td>
+              <td class="label-ar">التوقيت</td>
+            </tr>
+            <tr class="alt">
+               <!-- CHARGES -->
+              <td class="label">Extra KM</td>
+              <td class="value">0</td>
+              <td class="label-ar">كم إضافي</td>
+              
+              <!-- RETURN -->
+              <td class="label">Odometer</td>
+              <td class="value">168512</td>
+              <td class="label-ar">رقم العداد</td>
+              
+              <!-- DEPARTURE -->
+               <td class="label">Odometer</td>
+              <td class="value">168512</td>
+              <td class="label-ar">رقم العداد</td>
+            </tr>
+          </tbody>
+        </table>
+        
+        <!-- Total Amount Bar -->
+        <div class="total-amount-bar">
+          <div class="total-label-en">Total Amount</div>
+          <div class="total-value">AED 2,540</div>
+          <div class="total-label-ar">المبلغ الإجمالي</div>
+        </div>
+      </div>
+      
+      <!-- BOTTOM SECTION: Car Diagram & Terms -->
+      <div class="bottom-section">
+        <div class="bottom-left">
+           <!-- CAR DIAGRAM WITH CHECKLIST -->
+          <div class="car-diagram-container">
+            <div class="car-diagram">
+              <div class="car-placeholder">
+                <img src="car-diagram.svg" class="car-svg" alt="Car Diagram">
+              </div>
+            </div>
+            
+            <div class="car-checklist">
+              <div class="checklist-item">
+                <div class="item-text">
+                  <span class="ar">طفاية حريق</span>
+                  <span class="en">Fire Extinguisher</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+              <div class="checklist-item">
+                <div class="item-text">
+                  <span class="ar">عجل إضافي</span>
+                  <span class="en">Spare Tire</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+              <div class="checklist-item">
+                <div class="item-text">
+                  <span class="ar">قداحة سجائر</span>
+                  <span class="en">Cigarette Lighter</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+              <div class="checklist-item">
+                <div class="item-text">
+                  <span class="ar">معدات مركبة</span>
+                  <span class="en">Tool Kit</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+              <div class="checklist-item">
+                <div class="item-text">
+                  <span class="ar">شنطة إسعافات</span>
+                  <span class="en">First Aid Kit</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+               <div class="checklist-item">
+                <div class="item-text">
+                   <span class="ar">أداة سحب</span>
+                   <span class="en">Tow Hook</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+              <div class="checklist-item">
+                <div class="item-text">
+                  <span class="ar">مثلث تنبيه</span>
+                  <span class="en">Warning Triangle</span>
+                </div>
+                <span class="checkbox checked">✓</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bottom-right">
+           <div class="terms-header">:الشروط والأحكام</div>
+           <div class="terms-content">
+            <ol class="terms-list">
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل يوم كامل يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب موعدها وتأخير ساعة يحتسب يوم كامل تأخير ساعة يحتسب يوم كامل تأخير ساعة يحتسب يوم كامل يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل يحتسب يوم كامل</li>
+               <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يختير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب كامل ساعة يحتسب يوم كامل</li>
+               <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب خير ساعة يحتسب يوم كامل يوم كامل يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+              <li>يلتزم المستأجر بتسليم المركبة في موعدها وتأخير ساعة يحتسب يوم كامل</li>
+            </ol>
+           </div>
+        </div>
+      </div>
+    
+    </main>
+    
+    <!-- =====================================================
+         FOOTER - Signature Lines
+         ===================================================== -->
+    <footer class="footer">
+      <div class="signature-block">
+		  <div class="signature-label">
+			<span class="label-en">Office Signature</span>
+			<span class="label-ar">توقيع الموظف</span>
+		  </div>
+        <div class="signature-line"></div>
+      </div>
+      <div class="signature-block">
+		  <div class="signature-label">
+			<span class="label-en">Sponsor Signature</span>
+			<span class="label-ar">توقيع الكفيل</span>
+		  </div>
+        <div class="signature-line"></div>
+      </div>
+      <div class="signature-block">
+		  <div class="signature-label">
+			<span class="label-en">Renter's Signature</span>
+			<span class="label-ar">توقيع المستأجر</span>
+		  </div>
+        <div class="signature-line"></div>
+      </div>
+    </footer>
+    
+  </div>
+  
+</body>
+</html>
