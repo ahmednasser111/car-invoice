@@ -168,6 +168,8 @@ body {
 .title-en {
   font-size: var(--font-size-header);
   font-weight: bold;
+  text-align: left;
+  direction: ltr;
 }
 
 .contract-spacer {
@@ -260,6 +262,7 @@ body {
   margin: -1px 0;
   width: 60%;
   margin-left: auto;
+  border-bottom: none;
 }
 
 .total-value {
@@ -340,6 +343,17 @@ body {
   width: 100%;
 }
 
+.header-en {
+  text-align: left;
+  font-weight: bold;
+  direction: ltr;
+}
+
+.header-ar {
+  text-align: right;
+  font-weight: bold;
+}
+
 .data-table tbody td {
   padding: var(--cell-padding);
   border: 1px solid var(--color-border-light);
@@ -347,8 +361,13 @@ body {
 }
 
 
-/* Label and value cell styling */
-.data-table .label,
+.data-table .label {
+  font-weight: bold;
+  width: 30%;
+  text-align: left;
+  direction: ltr;
+}
+
 .data-table .label-ar {
   font-weight: 700;
   width: 30%;
@@ -358,10 +377,9 @@ body {
 .data-table .value,
 .data-table .value-ar {
   text-align: center;
-  color: #878787; /* User requested answer color */
+  color: #878787; 
 }
 
-/* Amount table specific styles */
 .amount-table .label-ar {
   width: 60%;
   text-align: right;
@@ -399,6 +417,8 @@ body {
   border: 1px solid var(--color-border-light);
   padding: 2mm;
   height: 100%;
+  border-right: none;
+  border-top: none;
 }
 
 .car-diagram {
