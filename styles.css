@@ -17,11 +17,11 @@
   
   /* Typography */
   --font-family: 'Cairo', 'Segoe UI', Tahoma, sans-serif;
-  --font-size-base: 8.5pt;
-  --font-size-small: 7.5pt;
-  --font-size-header: 10pt;
-  --font-size-title: 11pt;
-  --font-size-logo: 16pt;
+  --font-size-base: 12pt;
+  --font-size-small: 8pt;
+  --font-size-header: 14pt;
+  --font-size-title: 15pt;
+  --font-size-logo: 20pt;
   
   /* Spacing */
   --page-padding: 8mm;
@@ -72,8 +72,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 3mm;
-  margin-bottom: 3mm;
+  padding-bottom: 2mm;
 }
 
 .header-right,
@@ -167,8 +166,7 @@ body {
 }
 
 .title-en {
-  font-size: var(--font-size-small);
-  color: #555;
+  font-size: var(--font-size-header);
   font-weight: bold;
 }
 
@@ -204,7 +202,7 @@ body {
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 5.5mm;
+  gap: 5.7mm;
   min-width: 0;
 }
 
@@ -405,25 +403,23 @@ body {
 
 .car-diagram {
   flex: 1;
-  display: flex; /* Allow centering */
+  display: flex; 
   justify-content: center;
-  height: 100%; /* Fill container height */
+  height: 100%; 
 }
 
 .car-placeholder {
   width: 100%;
   display: flex;
-  align-items: flex-start; /* Align top */
+  align-items: flex-start; 
   justify-content: center;
-  height: 100%; /* Fill diagram height */
+  height: 100%; 
 }
 
 .car-svg {
   width: auto;
   max-width: 100%;
-  height: 100%; /* Force height to fill container */
-  max-height: 400px; /* Safety cap */
-  display: block;
+  height: 100%; 
 }
 
 .car-checklist {
