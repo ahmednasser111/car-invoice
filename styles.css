@@ -99,6 +99,10 @@ body {
   letter-spacing: 1px;
   margin-bottom: 2px;
 }
+.company-name-ar {
+  font-size: 23pt;
+  font-weight: 900;
+}
 
 /* Logo styling */
 .logo {
