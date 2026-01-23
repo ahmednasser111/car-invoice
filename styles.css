@@ -1,6 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap');
-
 /* 
   CSS VARIABLES - Design tokens for consistency
 */
@@ -8,6 +6,7 @@
   /* Colors */
   --color-primary: #2C2C2C;
   --color-header-bg: #7d7676;
+  --color-header-text: #001d2f;
   --color-border: #000;
   --color-border-light: #000;
   --color-row-alt: #F5F5F5;
@@ -73,11 +72,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-bottom: 2mm;
+  color: var(--color-header-text);
 }
 
 .header-right,
 .header-left {
-  flex: 1;
   text-align: center;
 }
 
@@ -90,15 +89,15 @@ body {
 }
 
 .header-center {
-  flex: 1;
   text-align: center;
 }
 
 
 .company-name-en, .company-name-ar {
-  font-size: var(--font-size-header);
-  font-weight: 700;
+  font-size: var(--font-size-logo);
+  font-weight: 800;
   letter-spacing: 1px;
+  margin-bottom: 2px;
 }
 
 /* Logo styling */
@@ -129,7 +128,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--color-black);
+  color: var(--color-header-text);
   margin-bottom: 3mm;
 }
 
